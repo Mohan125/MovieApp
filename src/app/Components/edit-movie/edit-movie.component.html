@@ -1,0 +1,40 @@
+<div class="abc">
+  <div class="pen">
+    <form #f="ngForm" (ngSubmit)="onSubmit()" class="form" class="form-group" [formGroup]="movieEditForm">
+      <div>
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" placeholder="Movie Title" formControlName="title" readonly>
+      </div>
+      <br>
+
+      <div >
+        <label for="boxOffice">Box Office</label>
+        <input type="text" class="form-control" id="boxOffice" placeholder="Box Office"  formControlName="boxOffice">
+      </div>
+      <br>
+      <div >
+        <label for="active">active</label>
+        <input type="text" class="form-control" id="active" placeholder="Active" formControlName="active">
+      </div>
+      <br>
+      <div >
+        <label for="dateOfLaunch">Launch Date</label>
+        <input type="text" class="form-control" id="dateOfLaunch" placeholder="Launch Date" formControlName="dateOfLaunch">
+      </div>
+      <br>
+      <div >
+        <label for="genre">Genre</label>
+        <input type="text" class="form-control" id="genre" placeholder="Genre" formControlName="genre">
+      </div>
+      <br>
+      <div>
+        <label for="hasTeaser">Has Teaser</label>
+        <input type="text" class="form-control" id="hasTeaser" placeholder="Has Teaser" formControlName="hasTeaser">
+      </div>
+      <br>
+
+      <button type="submit" class="btn btn-primary">Edit</button>
+    </form>
+  </div>
+
+</div>

@@ -1,0 +1,41 @@
+ 
+ <div class="abc">
+        
+    <div class="pen">
+        <h1 style="text-decoration-style: solid;text-align: center;">Add Movie</h1>
+        <br>
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)" class="form">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title"  placeholder="Title" ngModel name="title">
+          </div>
+          
+          <div class="form-group">
+              <label for="boxOffice">Box Office</label>
+              <input type="text" class="form-control" id="boxOffice"  placeholder="Box Office" ngModel name="boxOffice">
+            </div>
+            <div class="form-group">
+              <label for="active">Active</label>
+              <input type="text" class="form-control" id="active"  placeholder="Active" ngModel name="active">
+            </div>
+            
+            <div class="form-group">
+              <label for="dateOfLaunch">Date of Launch</label>
+              <input type="text" class="form-control" id="dateOfLaunch" placeholder="Date of Launch" ngModel name="dateOfLaunch">
+            </div>
+            <div class="form-group">
+              <label for="genre">Genre</label>
+              <input type="text" class="form-control" id="genre"  placeholder="Genre" ngModel name="genre">
+            </div>
+            <div class="form-group">
+                <label for="hasTeaser">Has Teaser</label>
+                <input type="text" class="form-control" id="hasTeaser"  placeholder="Has Teaser" ngModel name="hasTeaser">
+              </div>
+          
+          <button type="submit" class="btn btn-primary">Submit</button><span class="text-danger font-weight-bold" *ngIf="movieAdded">    Added Successfully</span><span class="text-danger font-weight-bold" *ngIf="alreadyAdded">    Already Added</span>
+        </form>
+    </div>
+    
+  </div>
+  
+  

@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    margin: 2rem;
+    width: 300px;
+    height: 150px;
+   
+    
+    background-color: rgb(235, 236, 238);
+    
+    
+    
+}
+.card:hover{
+    box-shadow:2px 2px 10px rgb(175, 0, 0);
+    transition: 0.5s;
+    
+}
+h3{
+    font-weight: bold;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card-body a{
+    color: rgb(175, 0, 0);
+    text-decoration: none;
+}
+.container{
+    padding-top: 10%;
+}
+
+
+
+

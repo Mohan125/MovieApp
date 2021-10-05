@@ -1,0 +1,17 @@
+.form {
+    width: 400px;
+    
+}
+.abc
+{
+display: flex;
+height:500px;
+align-items: center;
+justify-content: space-around;
+padding-top: 13%;
+
+}
+
+label{
+    font-weight: bold;
+}

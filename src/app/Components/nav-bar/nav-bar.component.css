@@ -1,0 +1,36 @@
+.navbar{
+   
+  background-color: rgb(175, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.glyphicon-user{
+    color: white;
+    font-size: 2rem;
+    
+}
+.glyphicon-user:hover{
+    text-shadow:2px 2px  5px white;
+    box-shadow: white;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    
+    float: right;
+}
+.nav-link{
+   text-decoration: none;
+   font-size: medium;
+}
+.navbar-brand{
+    padding-left: 5%;
+    font-size: x-large;
+}
+

@@ -1,0 +1,24 @@
+.card{
+    width: 70%;
+    height: 25%;
+    padding: 10px;
+ 
+}
+.highlight{
+    font-weight: bolder;
+    font-size: larger;
+}
+.card-body p{
+    font-size:medium;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:9%; 
+    
+}
+.card-title{
+    color:rgb(211, 9, 9)
+}

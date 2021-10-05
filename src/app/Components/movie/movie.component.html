@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div>
+                <h1 class="card-title">{{movie.title}}</h1>
+                <br>
+                <p><span class="highlight">Box Office : </span>{{movie.boxOffice}}</p>
+                <br>
+                <p><span class="highlight">Active : </span>{{movie.active}}</p>
+                <br>
+                <p><span class="highlight">Date of Launch : </span>{{movie.dateOfLaunch}}</p>
+                <br>
+                <p><span class="highlight">Genre : </span>{{movie.genre}}</p>
+                <br>
+                <p><span class="highlight">Has Teaser : </span>{{movie.hasTeaser}}</p>
+                <br>
+
+                <button *ngIf="loggedIn" (click)="addFavorite(movie.title)" class="btn btn-info">Favorite</button><span class="text-danger font-weight-bold" *ngIf="favAdded">    Added Successfully</span><span class="text-danger font-weight-bold" *ngIf="alreadyAdded">    Already Added</span>
+                <br>
+                <br>
+                <button *ngIf="loggedIn" (click)="deleteMovie(movie.title)" class="btn btn-danger">Delete</button>
+                <br>
+                <br>
+                <button *ngIf="isAdmin && loggedIn" (click)="editForm(movie.title)"
+                    class="btn btn-success">Edit</button>
+                <br>
+                <br>
+                <!-- <button *ngIf="loggedIn" (click)="showFavorite()" class="btn btn-danger">Favorite List</button> -->
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+</div>

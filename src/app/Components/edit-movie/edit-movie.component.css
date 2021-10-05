@@ -1,0 +1,27 @@
+.form {
+    width: 400px;
+    padding-top: 90px;
+    
+}
+.abc
+{
+display: flex;
+height:600px;
+align-items: center;
+justify-content: space-around;
+padding-top: 50px;
+
+}
+.pen{
+    border: solid grey 2px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 90px;
+
+}
+
+label{
+    font-weight: bold;
+   
+    
+}
