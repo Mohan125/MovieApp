@@ -53,4 +53,5 @@ jobs:
           app-name: 'MovieApp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02BBA2DDAF0E41A6B5101F08C6C31D37 }}
-          package: .
+          package: ./dist/MovieApp
+          
