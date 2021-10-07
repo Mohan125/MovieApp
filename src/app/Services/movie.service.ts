@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class MovieService {
-  readonly APIUrl = "https://localhost:44377/api";
+  readonly APIUrl = "https://movieappbackend20211007082817.azurewebsites.net/api";
   constructor(private httpClient:HttpClient) { }
 
   addMovie(movie:any){

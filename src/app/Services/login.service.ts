@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LoginService {
 
-  readonly APIUrl = "https://localhost:44377/api";
+  readonly APIUrl = "https://movieappbackend20211007082817.azurewebsites.net/api";
   constructor(private httpClient: HttpClient) { }
 
   public PostIsLoggedIn(value:any){
